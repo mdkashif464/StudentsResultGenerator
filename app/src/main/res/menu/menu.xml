@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_new_entry"
+        android:title="Add New Entry"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="always"
+        android:orderInCategory="1"/>
+
+    <item
+        android:id="@+id/sortBy_gender"
+        android:title="Sort by Gender"
+        app:showAsAction="never"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/sortBy_hindiMarks"
+        android:title="Sort by Hindi Marks"
+        app:showAsAction="never"
+        android:orderInCategory="3"/>
+
+    <item
+        android:id="@+id/sortBy_englishMarks"
+        android:title="Sort by English Marks"
+        app:showAsAction="never"
+        android:orderInCategory="4"/>
+
+
+</menu>
