@@ -6,3 +6,4 @@
 <strong>5> </strong>App also displays the Total and Average Marks obtained.<br>
 <strong>6> </strong>You can delete a row/entry by Right Swiping OR Left swiping the row/entry.<br>
 <strong>7> </strong>You can also edit the Existing row/entry by clicking on the row/entry.<br>
+<strong>8> </strong>Check out the App screenshots in the screenshots folder.<br>
