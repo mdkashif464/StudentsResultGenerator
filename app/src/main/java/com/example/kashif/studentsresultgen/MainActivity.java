@@ -89,6 +89,8 @@ public class MainActivity extends AppCompatActivity {
         //getting and setting student name with highest marks in hindi
         Cursor maxHindiMarksCursor = getStudentWithMaxHindiMarks();
         if (maxHindiMarksCursor.getCount() == 0){
+            highestScorerHindi_tv.setText("");
+            highestScorerEnglish_tv.setText("");
             return;
         }
         maxHindiMarksCursor.moveToFirst();
